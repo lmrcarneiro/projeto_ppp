@@ -1,0 +1,60 @@
+Projeto apontamentos
+
+Ajudar a escolher uma viagem que se vai a 3 locais.
+
+Em cada um dos 3 locais, tem-se pelo menos 3 pontos de interesse.
+
+tem de se ter pelo menos 20 locais.
+
+A pessoa pode definir preferencias.
+
+
+-Regista-se e receb um ID, para poder mais tarde alterar,etc.
+
+
+
+-os locais sao alistados por ordem alfabetica, cada um com os seus pontos de interesse tambem ordenaos alfabeticamente.
+
+
+-so se pode ter 3 locais favoritos, pontos de interesse pode-se ter quantos quisermos.
+
+
+
+-escolher um hot(ponto de interesse num dos locais,nao precisa de ser dos locais preferidos)
+
+
+-criar uma lista e ordena-a por ordem de "likes", em termos de cidades e nao de pontos de interesse
+
+
+
+-opcao de contruir a viagem so devera aparecer se tiver os 3 locais preferidos.
+
+
+
+-escolher os pontos de interesse, primeiro caso o "hot" esteja presente ser o primeiro a ser mostrado, as eguir escolher por ordem decrescente de pontos de interesse 
+escolhidos pelo utilizador e por mais "likes", maispopulares entre os utilizadores.
+
+
+
+-calcular as devidas percentagens,
+
+
+
+Estruturas:
+
+typedef struct pdi{
+int nome;
+int descricao;
+hora horario;}PdI;
+
+
+typedef struct lnode *listapdI;
+
+typedef struct lnode{
+PdI info;
+listPdI next;
+}list_note_pdI;
+
+
+
+

@@ -1,0 +1,9 @@
+-lisboa
+pd1
+pd2
+pd3
+
+-porto
+pd4
+pd5
+
